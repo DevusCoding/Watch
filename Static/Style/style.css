@@ -1,0 +1,26 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #24252a;
+    color: #00fbab;
+    font-family: Arial;
+}
+
+.block{
+    display: flex;
+    column-gap: 25px;
+}
+
+.day,
+.time{
+    font-size: 100px;
+    font-weight: bolder;
+}
